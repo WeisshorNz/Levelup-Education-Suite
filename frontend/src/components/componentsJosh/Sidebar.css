@@ -1,0 +1,29 @@
+.sideSection {
+  display: flex;
+  flex-direction: column;
+  background-color: #43c0f6;
+  width: 240px;
+  height: 100vh;
+}
+
+.sideSection img {
+  width: 80px;
+  height: 80px;
+}
+
+.sideIcon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sideIcon img {
+  width: 22px;
+  height: 25px;
+}
+
+.sidebarBtn {
+  background-color: transparent;
+  color: white;
+  border: none;
+}

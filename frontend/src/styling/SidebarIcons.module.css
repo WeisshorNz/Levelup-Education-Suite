@@ -1,0 +1,21 @@
+.SidebarIcons {
+  width: 50px;
+  height: 25px;
+}
+.SidebarIcons.active {
+  background-color: white;
+}
+.SidebarWords {
+  background-color: #43c0f6;
+  padding: 10px;
+  margin: 4px;
+
+  border: 0;
+  padding-top: 5px;
+  font-size: 15px;
+  color: white;
+}
+
+.SidebarWords.active {
+  background-color: #43c0f6;
+}

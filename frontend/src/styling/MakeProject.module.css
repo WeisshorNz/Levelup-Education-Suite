@@ -1,0 +1,25 @@
+.MakeProject{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+    font-style: center;
+    width: 85rem;
+    border-radius: 25px;
+    }
+.MakeProjectContainer1{
+    border: 0px solid #B2E4FA;
+    padding: -100px;
+    padding-left: 55px;
+    border-radius: 25px;
+    top: 62px;
+    width: 150rem;
+    background-color:#B2E4FA ;
+}
+.MakeProjectContainer2{
+border: 45px solid #B2E4FA;
+padding: 1px;
+padding-left: 55px;
+border-radius: 35px;
+background-color:#B2E4FA ;
+}

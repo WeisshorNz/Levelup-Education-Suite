@@ -1,0 +1,43 @@
+
+{
+    "english":{
+        "Title":"",
+        "Description":"After completing your project, take a screenshot of your project and upload it here",
+        "Description2":"If your teacher is in the same room as you, click the button below to let them know you are done",
+        "Description3":"Submit Project Photo",
+        "Description4":"Show your teacher",
+        "Description5":"Start Project",
+        "Description6":"Call Teacher"
+    },
+    "Maori":{
+        "Title":"After completing your project, take a screenshot of your project and upload it here",
+        "Description":"Tukua te Whakaahua Kaupapa Ka oti to kaupapa, tangohia he whakaahua o to kaupapa ka tuku ake ki konei",
+        "Description2":"Mena kei te ruma kotahi to kaiako ki a koe, pawhiria te paatene i raro nei kia mohio ratou kua oti koe",
+        "Description3":"Tukua te Whakaahua Kaupapa",
+        "Description4":"Whakaatuhia to kaiako",
+        "Description5":"timata kaupapa",
+        "Description6":"Karanga Kaiako"
+    },
+    "Korean":{
+        "Description":"프로젝트를 완료한 후 프로젝트의 스크린샷을 찍어 여기에 업로드하세요.",
+        "Description2":"선생님이 같은 방에 있는 경우 아래 버튼을 클릭하여 완료되었음을 알립니다.",
+        "Description3":"프로젝트 사진 제출.",
+        "Description4":"선생님을 보여주세요.",
+        "Description5":"프로젝트 시작.",
+        "Description6":"선생님에게 전화하기"
+
+
+    },
+    "Chinese":{
+        "Description":"完成项目后，截取项目的屏幕截图并上传到此处",
+        "Description2":"如果您的老师和您在同一个房间，请单击下面的按钮让他们知道您已完成",
+        "Description3":"提交项目照片",
+        "Description4":"显示你的老师",
+        "Description5":"启动项目",
+        "Description6":"打电话给老师"
+
+
+    }
+    
+    
+}

@@ -1,0 +1,25 @@
+{
+    "english":{
+        "Title":"",
+        "Description":"Aiden Submitted his project",
+        "Description2":"Thursday 23 July 2023",
+        "Description3":"Rawiri wants to show his project",
+        "Description4":"Wed 22 July 2023",
+        "Description5":"Neevah wants to show her project",
+        "Description6":"Tue 21 July 2023"
+
+      
+    },
+    "Maori":{
+        
+        "Description":"I tukuna e Aiden tana kaupapa",
+        "Description2":"Taite 23 o Hurae 2023",
+        "Description3":"Kei te pirangi a Rawiri ki te whakaatu i tana kaupapa",
+        "Description4":"Wenerei 22 Hurae 2023",
+        "Description5":"Kei te hiahia a Neevah ki te whakaatu i tana kaupapa",
+        "Description6":"Rātū 21 Hōngongoi 2023"
+
+        
+    }
+
+}

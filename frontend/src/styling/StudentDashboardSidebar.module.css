@@ -1,0 +1,135 @@
+.sidebar {
+    background-color: #43c0f6;
+    height: 100vh;
+    width: 5vw;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .inActive {
+    width: 29vw;
+    transition: width 0.3s ease-in-out;
+    
+    
+  }
+
+  
+  .AidenAndrewsSD{
+   width: 70px;
+   margin-left: 50px;
+   padding-left: 10px;
+   transition: width 0.3s ease-in-out;
+   margin: auto;
+  }
+
+  .middlePositionAndrewSD{
+    width: 4vw;
+    margin-left:125px ;
+    transition: width 0.3s ease-in-out;
+  }
+
+
+  .RightArrowSD{
+    top: 809px;
+     left: 23px;
+     width: 50px;
+    height: 50px;
+    border-radius: 22px;
+    background-color:#F92D8E;
+   
+  }
+  
+  .RightArrowmiddlePositionSD{
+    transform: rotate(180deg);
+    transition: width 0.3s ease-in-out;
+    margin-left: 250px;
+    
+  }
+
+  .RightArrowSD.inActive{
+    transform: rotate(45deg);
+  }
+
+
+
+  
+
+  
+  .buttonSideBar{
+    margin: 50px;
+  }
+
+  .buttonSelection{
+    background-color: burlywood;
+    padding: 50px;
+  }
+ 
+  .sidebarTitle{
+    font-size: 25px;
+  }
+
+  .StudentAdvertisement{
+   width: 1px;
+  }
+
+  .StudentAdvertisementinActive{
+  
+    margin-left:60px;
+    width: 12rem;
+   margin-top: -100px;
+   
+  
+
+
+  }
+
+  .profileSD{
+    margin-left: 25px;
+  }
+
+  .settingsSD{
+    margin-left: 25px;
+  }
+  .logoutSD{
+    margin-left: 25px;
+  }
+  .profileSDActive{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+  }
+  .settingsSDActive{
+    display: flex;
+   justify-content: space-between;
+   margin-top: 25px;
+  }
+  .logoutSDActive{
+    display:flex;
+   justify-content: space-between;
+   margin-top:5px;
+   margin-right: 50px;
+  }
+
+  .ProfileStatement{
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: -30px;
+    margin-left: 75px;
+    
+  }
+
+  .SettingStatement{
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: -30px;
+    margin-left: 75px;
+  }
+  
+  .LogoutStatement{
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: -30px;
+    margin-left: 75px;
+  }

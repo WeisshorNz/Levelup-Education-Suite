@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/* Modal: */
+.modal-show {
+  display: block;
+
+  @media screen and (max-width: 860px) {
+    align-items: center;
+    width: 100%;
+  }
+}
+
+.signup-modal {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  height: 90vh;
+  background-color: #fff;
+  box-shadow: 0px 3px 6px #00000029;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow-y: auto;
+
+  @media screen and (max-width: 860px) {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    border-radius: 0;
+  }
+}
+
+.signup-modal-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+  @media screen and (max-width: 860px) {
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    border-radius: 0;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+/* Close X Image Button at top right */
+#login_close_btn {
+  width: 31px;
+  height: 31px;
+  left: 930px;
+  position: absolute;
+  top: 47px;
+  cursor: pointer;
+
+  @media screen and (max-width: 860px) {
+    position: webkit-sticky;
+    top: 5%;
+    left: 85%;
+  }
+}
+
+.signup-students,
+.signup-teachers {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Split between student/teacher forms to allow border */
+.student-teacher-split {
+  border-right: 2px solid #707070;
+  height: 100%;
+
+  @media screen and (max-width: 860px) {
+    border: none;
+    padding-bottom: 5em;
+  }
+}
+
+/* Student and Teacher images */
+.login-signup-imgs {
+  height: 300px;
+  width: 300px;
+  margin: 79px 105px 0 105px;
+}
+
+/* Text CSS*/
+.login-signup-header {
+  font-size: 42px;
+  letter-spacing: 0.84px;
+  color: #707070;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+.login-signup-sub-headings {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+  left: 110px;
+  justify-content: center;
+  width: 300px;
+  align-content: center;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+
+  @media screen and (max-width: 860px) {
+    text-align: center;
+  }
+}
+
+/* Login and Signup buttons for form type */
+.home-signup-btns,
+.home-login-btns {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #a5a5a5;
+  text-align: center;
+  letter-spacing: 0.48px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Pink underline for SignUp */
+.home-signup-btns.active:after {
+  content: "";
+  float: left;
+  background: #f91c85;
+  width: 100%;
+  height: 4px;
+  border-radius: 3px;
+}
+
+/* Blue underline for Login */
+.home-login-btns.active:after {
+  content: "";
+  float: left;
+  background: #42c0f6;
+  width: 100%;
+  height: 4px;
+  border-radius: 3px;
+}
+
+/* Form Section */
+.login-signup-input-container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  color: #a5a5a5;
+  text-align: left;
+  letter-spacing: 0.26px;
+  align-items: center;
+
+  @media screen and (max-width: 860px) {
+    width: 100%;
+  }
+}
+
+/* Form Fields */
+.login-signup-input-field {
+  width: 220px;
+  height: 33px;
+  border: 1px solid #a29f9f;
+  border-radius: 10px;
+  margin-bottom: 34px;
+  padding-left: 16px;
+
+  @media screen and (max-width: 860px) {
+    width: 100%;
+  }
+}
+
+/* Submit button at bottom */
+.login-signup-button {
+  background-color: #f91c85;
+  color: #f0efef;
+  border-radius: 7px;
+  box-shadow: 0px 4px 5px #00000029;
+  width: 175px;
+  height: 35px;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.32px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 78px;
+
+  @media screen and (max-width: 860px) {
+    width: 100%;
+  }
+}
+
+/* Hide Modal */
+.hidden {
+  display: none;
+}

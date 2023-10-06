@@ -1,0 +1,922 @@
+/* Fonts:  
+font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/* 
+Colors:
+Bright blue: #42c0f6;
+Bright Pink: #f91c85;
+Dark Grey: #707070;
+Light Grey: #6c6c6c;
+Background White: #efeff1;
+ */
+
+/* HOME PAGE */
+.home {
+  padding-bottom: 3.125rem;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    left: auto;
+  }
+}
+
+/* Home Banner section starts: */
+
+.home-banner {
+  color: #767676;
+  width: 100%;
+  height: 25.5rem;
+  position: relative;
+  background-size: cover;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    left: auto;
+    height: auto;
+  }
+}
+
+#home_future {
+  color: #42c0f6;
+}
+
+.home-banner-btns {
+  display: flex;
+  text-align: center;
+  justify-content: flex-start;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    align-items: center;
+    margin: auto;
+    left: auto;
+  }
+}
+#home_learn_btn {
+  color: #707070;
+  background: #fff;
+  border: 3px solid #43c0f6;
+  border-radius: 7px;
+  text-align: center;
+  box-shadow: 0px 4px 5px #00000029;
+  letter-spacing: 0.32px;
+  left: 398px;
+  width: 175px;
+  height: 32px;
+  position: relative;
+  margin-top: 17px;
+  font-family: "Nunito";
+  font-size: 16px;
+  cursor: pointer;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    left: auto;
+  }
+}
+
+#home_sign_btn {
+  color: #f0efef;
+  background: #f91c85;
+  box-shadow: 0px 4px 5px #00000029;
+  border-radius: 7px;
+  text-align: center;
+  letter-spacing: 0.32px;
+  left: 445px;
+  width: 175px;
+  height: 32px;
+  position: relative;
+  line-height: 35px;
+  margin-top: 17px;
+  font-family: "Nunito";
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    left: auto;
+  }
+}
+
+#home_banner_h1 {
+  font-size: 3.75rem;
+  text-align: left;
+  position: relative;
+  font-family: "Nunito", sans-serif;
+  left: 16.5rem;
+  width: 37rem;
+  padding-top: 2.5rem;
+  padding-bottom: 0;
+  margin: 0;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    left: auto;
+    font-size: 2.5rem;
+  }
+}
+
+#home_banner_h6 {
+  box-sizing: content-box;
+  font-family: "Nunito", sans-serif;
+  position: relative;
+  font-size: 1.5rem;
+  left: 16.5rem;
+  width: 35rem;
+  height: 6.8rem;
+  text-align: left;
+  letter-spacing: 0;
+  color: #6c6c6c;
+  padding-top: 0.7rem;
+  margin: 0;
+  padding-bottom: 0;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    left: auto;
+    height: auto;
+    font-size: 1rem;
+  }
+}
+
+#home_banner_p {
+  box-sizing: content-box;
+  left: 625px;
+  width: 11rem;
+  height: 2.3rem;
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: #707070;
+  position: relative;
+  font-size: 0.7rem;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding-bottom: 0;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    height: auto;
+    left: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+}
+
+/* Home Banner Section ends */
+
+/* What we offer section starts: */
+.home-section-1 {
+  display: flex;
+  width: 100%;
+
+  @media screen and (min-width: 769px) and (max-width: 1478px) {
+    flex-direction: column;
+  }
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    left: auto;
+  }
+}
+
+.what-we-offer {
+  width: 50%;
+  box-sizing: content-box;
+  height: 44rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 2rem;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    left: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.what-we-offer-content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#home_offer_h1 {
+  box-sizing: content-box;
+  width: 35rem;
+  height: auto;
+  text-align: left;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  position: relative;
+  letter-spacing: 0.84px;
+  color: #6c6c6c;
+  padding-top: 7.5rem;
+  margin: 0;
+  padding-bottom: 0;
+  font-size: 2.6rem;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    left: auto;
+    height: auto;
+    font-size: 2rem;
+    padding-top: 1rem;
+  }
+}
+
+#home_offer_p {
+  box-sizing: content-box;
+  width: 35rem;
+  height: auto;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  letter-spacing: 0.4px;
+  color: #767676;
+  font-size: 1.25rem;
+  padding-top: 1.05rem;
+  margin: 0;
+  padding-bottom: 0;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    left: auto;
+    height: auto;
+    font-size: 1rem;
+  }
+}
+
+#home_offer_h3 {
+  box-sizing: content-box;
+  height: auto;
+  width: 35rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  text-align: left;
+  font-size: 1.9rem;
+  letter-spacing: 0.6px;
+  color: #6c6c6c;
+  padding-top: 2rem;
+  margin: 0;
+  padding-bottom: 0;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    align-items: center;
+    height: auto;
+    margin: auto;
+    left: auto;
+  }
+}
+
+.home-offer-imgs {
+  display: flex;
+  box-sizing: content-box;
+  align-content: center;
+  justify-content: space-between;
+  padding-top: 0.7rem;
+  margin: 0;
+  padding-bottom: 0;
+  width: 35rem;
+  height: 9.5rem;
+  border-radius: 1.25rem;
+  position: relative;
+  cursor: pointer;
+  @media screen and (max-width: 768px) {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    padding-top: 2.5rem;
+    margin: auto;
+    left: auto;
+    align-items: center;
+    height: auto;
+    max-width: 18rem;
+  }
+}
+
+/* What we offer section ends */
+
+/* Laptop section starts: */
+
+.home-laptop-container {
+  display: flex;
+  box-sizing: content-box;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  width: 45.5rem;
+  height: 31rem;
+  padding: 0 100px;
+
+  @media screen and (max-width: 768px) {
+    width: 80%;
+    margin: auto;
+    padding-right: 0;
+    padding-bottom: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+}
+
+.home-laptop-image {
+  display: flex;
+  box-sizing: content-box;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 45.5rem;
+  height: 31rem;
+  padding-top: 40px;
+  margin: 0;
+  @media screen and (max-width: 768px) {
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    align-items: center;
+    height: auto;
+    justify-content: center;
+  }
+}
+
+.home-laptop-dots {
+  display: flex;
+  box-sizing: content-box;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 0;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    height: auto;
+  }
+}
+
+.home-laptop-dot {
+  box-sizing: content-box;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid #707070;
+  background-color: #fff;
+  margin: 0 5px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  @media screen and (max-width: 768px) {
+    width: 5%;
+    margin: auto;
+    padding-top: 0;
+  }
+}
+
+.home-laptop-dot.active {
+  background-color: #707070;
+  @media screen and (max-width: 768px) {
+    width: 5%;
+    align-items: center;
+    margin: auto;
+    left: auto;
+  }
+}
+
+/*laptop section ends */
+
+/* Teaching kids programming section starts: */
+.home-teaching-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: auto;
+}
+
+#home_teaching_h2 {
+  box-sizing: content-box;
+  width: 69rem;
+  height: 2.5rem;
+  text-align: center;
+  letter-spacing: 0.6px;
+  position: relative;
+  letter-spacing: 0.84px;
+  color: #6c6c6c;
+  font-size: 1.8rem;
+  font-family: "Nunito", sans-serif;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    left: auto;
+    height: auto;
+
+  }
+}
+
+.home-teaching-imgs-container {
+  
+  display: flex;
+  box-sizing: content-box;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* width: 87.5rem; */
+  width: 100%;
+  height: 13rem;
+  position: relative;
+  border-radius: 1.25rem;
+  padding-top: 3.4rem;
+  margin: 0;
+  padding-bottom: 0;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    width: 90%;
+    padding-top: 2.5rem;
+    margin: auto;
+    left: auto;
+    align-items: center;
+    height: auto;
+  }
+}
+
+.home-teaching-imgs {
+  box-sizing: content-box;
+  object-fit: contain;
+  width: 314px;
+  height: 231px;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 1rem;
+  }
+}
+
+/* Teaching kids programming section ends */
+
+/* How our programme helps section starts: */
+.home-help-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.home-help-section {
+  box-sizing: content-box;
+  top: 3.125rem;
+  width: 100%;
+  height: 46.875rem;
+  background: #efeff1 0% 0% no-repeat padding-box;
+  border: 1px solid #efeff1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    left: auto;
+    height: auto;
+  }
+}
+
+.home-help-h1 {
+  /* left: 28.25rem; */
+  box-sizing: content-box;
+  width: 100%;
+  height: 3.5625rem;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  position: relative;
+  letter-spacing: 0.84px;
+  color: #6c6c6c;
+  font-size: 2.6rem;
+  padding-top: 8.75rem;
+  margin: 0;
+  padding-bottom: 0;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    left: auto;
+    height: auto;
+  }
+}
+
+.home-btns {
+  display: flex;
+  box-sizing: content-box;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.25rem 0 0 0;
+  width: 87.5rem;
+  position: relative;
+  padding-top: 3.4rem;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 3.125rem;
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    left: auto;
+  }
+}
+.home-btn {
+  color: #fff;
+  box-sizing: content-box;
+  text-decoration: none;
+  margin: 0 0.3rem;
+  cursor: pointer;
+  width: 15.5rem;
+  height: 2rem;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.32px;
+  color: #707070;
+  box-shadow: 0px 0.25rem 0.3rem #00000029;
+  border: 3px solid #43c0f6;
+  border-radius: 7px;
+  line-height: 2rem;
+
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    left: auto;
+    height: auto;
+  }
+}
+
+.home-help-h3 {
+  box-sizing: content-box;
+  height: 2.5rem;
+  position: relative;
+  text-align: left;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.875rem;
+  letter-spacing: 0.6px;
+  color: #606060;
+  padding-top: 70px;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    left: auto;
+    height: auto;
+  }
+}
+
+.home-help-headings {
+  box-sizing: content-box;
+  padding-top: 0px;
+  width: 78rem;
+  height: 21.5rem;
+  position: relative;
+  text-align: left;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  letter-spacing: 0.4px;
+  color: #606060;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    left: auto;
+    height: auto;
+  }
+}
+
+.home-help-subheading {
+  padding-top: 1.5rem;
+  box-sizing: content-box;
+  width: 77.3rem;
+  position: relative;
+  text-align: left;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  letter-spacing: 0.4px;
+  color: #606060;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    height: auto;
+    left: auto;
+  }
+}
+
+.home-help-p {
+  padding-top: 0px;
+  box-sizing: content-box;
+  width: 77.3rem;
+  height: 1.125rem;
+  position: relative;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0.32px;
+  color: #606060;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    height: auto;
+    left: auto;
+  }
+}
+
+.home-help-active {
+  box-sizing: content-box;
+  background: #efeff1 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0.25rem 0.3rem #00000029;
+  border: 3px solid #efeff1;
+  border-radius: 7px;
+  @media screen and (max-width: 768px) {
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    left: auto;
+    height: auto;
+  }
+}
+
+.home-icons {
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  width: 2.5rem;
+  height: 30rem;
+  padding-right: 5px;
+  position: relative;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 2rem;
+  @media screen and (max-width: 768px) {
+    width: 20%;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 7rem;
+    margin: auto;
+    left: auto;
+    top: -6rem;
+  }
+}
+
+.home-help-flex-1 {
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 9.4rem;
+  position: relative;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    height: auto;
+    left: auto;
+  }
+}
+
+.home-help-flex-2 {
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 14.4rem;
+  position: relative;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    left: auto;
+    height: auto;
+  }
+}
+
+/* How our programme helps section ends */
+
+/* What are you waiting for section starts: */
+
+.home-waiting {
+  display: flex;
+  box-sizing: content-box;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  top: 3.5rem;
+  position: relative;
+  height: 40rem;
+  background-color: #fff;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    height: auto;
+    flex-direction: column;
+  }
+}
+
+.home-waiting-text {
+  padding-left: 5.3rem;
+  box-sizing: content-box;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    left: auto;
+
+    margin-bottom: 3rem;
+    height: auto;
+    padding-left: 0;
+  }
+}
+
+#home_waiting_h1 {
+  width: 100%;
+  box-sizing: content-box;
+  height: 3.5rem;
+  text-align: left;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  position: relative;
+  letter-spacing: 0.84px;
+  color: #6c6c6c;
+  margin: 0;
+  padding-bottom: 0;
+  font-size: 2.6rem;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    left: auto;
+    font-size: 2rem;
+  }
+}
+
+#home_waiting_h3 {
+  width: 38rem;
+  box-sizing: content-box;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  letter-spacing: 0.6px;
+  color: #6c6c6c;
+  margin: 0;
+  padding-top: 28px;
+  padding-bottom: 0;
+  font-size: 2rem;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    align-items: center;
+    height: auto;
+    margin: auto;
+    left: auto;
+    font-size: 1.5rem;
+  }
+}
+
+#home_waiting_p {
+  box-sizing: content-box;
+  width: 38rem;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  letter-spacing: 0.6px;
+  color: #6c6c6c;
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 0;
+  font-size: 1.25rem;
+
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    height: auto;
+    left: auto;
+  }
+}
+
+#home_waiting_img {
+  box-sizing: content-box;
+  width: 38rem;
+  max-width: 100%;
+  height: auto;
+  padding-right: 5.3rem;
+  @media screen and (max-width: 768px) {
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    left: auto;
+    height: auto;
+    padding: 0.5rem 0;
+  }
+}
+
+.home-waiting-btns {
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+  margin-top: 3.5rem;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    left: auto;
+  }
+}
+
+#home_enquire_btn {
+  color: #707070;
+  background: #fff;
+  border: 3px solid #43c0f6;
+  border-radius: 7px;
+  text-align: center;
+  box-shadow: 0px 4px 5px #00000029;
+  letter-spacing: 0.32px;
+  width: 11.5rem;
+  height: 2rem;
+  position: relative;
+  font-size: 1rem;
+  margin-top: 3.4rem;
+  padding: 1rem 0;
+  font-family: "Nunito", sans-serif;
+  cursor: pointer;
+  line-height: 0.5rem;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    left: auto;
+    margin-top: 1rem;
+  }
+}
+
+#home_sign_btn2 {
+  color: #f0efef;
+  background: #f91c85;
+  box-shadow: 0px 4px 5px #00000029;
+  border-radius: 7px;
+  text-align: center;
+  letter-spacing: 0.32px;
+  left: 119px;
+  width: 175px;
+  height: 35px;
+  position: relative;
+  font-size: 16px;
+  margin-top: 55px;
+  line-height: 35px;
+  font-family: "Nunito";
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    left: auto;
+    height: auto;
+    margin-top: 1rem;
+  }
+}
+
+/* What are you waiting for section ends */

@@ -1,0 +1,33 @@
+.VideoTutorial {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+  font-style: center;
+  width: 85rem;
+  height: 45rem;
+  border-radius: 25px;
+}
+.VideoTutorialContainer1 {
+  border: 0px solid #b2e4fa;
+  padding: 10px;
+  padding-left: 55px;
+  border-radius: 25px;
+  top: 62px;
+
+  width: 150rem;
+
+  background-color: #b2e4fa;
+}
+.VideoTutorialContainer2 {
+  border: 9px solid #b2e4fa;
+  padding: 55px;
+  padding-left: 55px;
+  border-radius: 35px;
+  background-color: #b2e4fa;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

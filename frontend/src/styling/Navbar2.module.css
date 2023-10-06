@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: "segoe ui";
+}
+
+.nav {
+  height: 70px;
+  width: 100%;
+  background-color: #43c0f6f3;
+  position: relative;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.dot-1 {
+  height: 15px;
+  width: 15px;
+  background-color: #fdf7c0f4;
+  top: 15px;
+  left: 373px;
+  width: 15px;
+  height: 15px;
+  margin: 10px;
+  border: 100px blue;
+  margin-right: 15px;
+  padding: 10px 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 300%;
+  display: inline;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  border: 100px blue;
+  background-color: #ffffff6e;
+  margin: 10px;
+  margin-right: 10px;
+  padding: 10px 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 300%;
+  display: inline;
+}
+.Maorilang {
+  margin-top: 1px;
+  width: 50px;
+  height: 1px;
+  margin-left: 1px;
+  margin-bottom: -100px;
+}
+.NZlang {
+  width: 70px;
+  margin-left: 10px;
+  margin-bottom: -100px;
+}
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 25px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+  float: left;
+  padding-top: 13px;
+  margin-top: 1px;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.Start-ProjectSD {
+  font-size: 14px;
+  margin-top: 13px;
+  left: 1137px;
+  width: 150px;
+  background-color: orange;
+  border-radius: 20px;
+  gap: 2px;
+}
+.Ask-TeacherSD {
+  font-size: 14px;
+  margin-top: 13px;
+  left: 1137px;
+  width: 150px;
+  background-color: rgba(255, 0, 0, 0.955);
+  border-radius: 20px;
+}
+.MoreProjectsSD {
+  font-size: 14px;
+  margin-top: 13px;
+  left: 1137px;
+  width: 150px;
+  background-color: #39687b;
+  border-radius: 20px;
+}
+
+.nav > .nav-check {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,
+  .nav #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}

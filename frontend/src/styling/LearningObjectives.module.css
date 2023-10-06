@@ -1,0 +1,35 @@
+.LearningObjectives {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+  font-style: center;
+  width: 85rem;
+  border-radius: 25px;
+}
+
+.LearningObjectivesContainer1 {
+  border: 0px solid #b2e4fa;
+  padding: -100px;
+  padding-left: 55px;
+  border-radius: 25px;
+  top: 62px;
+  left: 0px;
+  width: 150rem;
+  background-color: #b2e4fa;
+}
+
+.LearningObjectivesContainer2 {
+  border: 90px solid #b2e4fa;
+
+  padding: 1px;
+  padding-left: 55px;
+  border-radius: 35px;
+  background-color: #b2e4fa;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

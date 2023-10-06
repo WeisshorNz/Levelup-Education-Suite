@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito:800&display=swap");
+
+.main-SPL-container {
+  display: flex;
+}
+.projects-container .myCheckbox {
+  display: flex;
+  flex-direction: column;
+  margin-left: -14%;
+  color: #767676;
+  font-family: "Open Sans", sans-serif;
+  position: absolute;
+}
+
+.myCheckbox h1 {
+  font-size: 16px;
+}
+hr {
+  width: 164px;
+}
+label {
+  font-size: 14px;
+}
+.projects-container {
+  align-items: flex-end;
+  padding: 5%;
+  padding-top: 3% ;
+  margin-left: 20%;
+  width: 75%;
+  
+}
+.projects-container h1 {
+  color: #6c6c6c;
+  font-size: 40px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+}
+.projects-container p {
+  color: #767676;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  margin-bottom: 5%;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  color: #767676;
+  margin-right: 4%;
+}
+.buttons {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.left {
+  justify-content: flex-start;
+  width: 287px;
+  height: 21px;
+  font-weight: bolder;
+}
+/*I styled each button individually*/
+#beginner {
+  width: 40%;
+  font-size: 12px;
+  background-color: rgb(211, 210, 210);
+  transition: background-color 0.3s, color 0.3s;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+#beginner:hover {
+  background-color: rgb(15, 150, 241);
+  color: white;
+  cursor: pointer;
+}
+#intermediate {
+  width: 40%;
+  font-size: 12px;
+  background-color: rgb(211, 210, 210);
+  transition: background-color 0.3s, color 0.3s;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+#intermediate:hover {
+  background-color: rgb(15, 150, 241);
+  color: white;
+  cursor: pointer;
+}
+#advanced {
+  width: 40%;
+  font-size: 12px;
+  background-color: rgb(211, 210, 210);
+  transition: background-color 0.3s, color 0.3s;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+#advanced:hover {
+  background-color: rgb(15, 150, 241);
+  color: white;
+  cursor: pointer;
+}
+#five {
+  width: 15%;
+  background-color: rgb(211, 210, 210);
+  transition: background-color 0.3s, color 0.3s;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+#five:hover {
+  background-color: rgb(15, 150, 241);
+  color: white;
+  cursor: pointer;
+}
+#ten {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  width: 15%;
+  background-color: rgb(211, 210, 210);
+  transition: background-color 0.3s, color 0.3s;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+#ten:hover {
+  background-color: rgb(15, 150, 241);
+  color: white;
+  cursor: pointer;
+}
+#all {
+  width: 15%;
+  background-color: rgb(211, 210, 210);
+  transition: background-color 0.3s, color 0.3s;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+#all:hover {
+  background-color: rgb(15, 150, 241);
+  color: white;
+  cursor: pointer;
+}
+.right {
+  justify-content: flex-end;
+  width: 246px;
+  height: 21px;
+}
+.right h3 {
+  margin-top: 0px;
+  margin-right: 10px;
+}
+.image-container {
+   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.image {
+  margin-bottom: 12%;
+  width: 314px;
+  height: 221px;
+  padding-top: 50px;
+  text-align: center;
+}
+.image h2 {
+  font-size: 25px;
+  color: #707070;
+  font-weight: 900px;
+  font-family: "Nunito", sans-serif;
+  margin-top: 5px;
+  margin-bottom: -10px;
+}
+.image p {
+  color: #767676;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 20px;
+  font-size: 18px;
+  
+}
+#back-to-top {
+  background-color: #daa520;
+  color: white;
+  width: 175px;
+  height: 35px;
+  border-radius: 10px;
+  margin-left: 83%;
+  margin-top: 200px;
+  border: none;
+  font-weight: bolder;
+  transition: background-color 0.3s, color 0.3s;
+}
+#back-to-top:hover {
+  background-color: #ffda7b;
+  color: black;
+  cursor: pointer;
+
+}

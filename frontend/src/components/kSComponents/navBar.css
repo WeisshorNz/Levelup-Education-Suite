@@ -1,0 +1,139 @@
+/* Main logo: */
+.logo-main {
+  top: 0.3rem;
+  left: 15rem;
+  width: 11rem;
+  height: 3.5rem;
+
+  @media screen and (max-width: 768px) {
+    display: fixed;
+  }
+}
+
+/* Home/features/teachers area: */
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+/* Right side of NavBar: */
+.nav-right {
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+.nav-lang {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 0.7rem;
+  padding-top: 1rem;
+  padding-bottom: 0.25rem;
+  margin-bottom: 0;
+  color: #fff;
+  text-decoration: none;
+  @media screen and (max-width: 768px) {
+    font-size: 0.8rem;
+  }
+}
+
+.nav-lang img {
+  padding-left: 0.6rem;
+  cursor: pointer;
+  top: 0.5rem;
+  width: 1.5rem;
+  height: 0.75rem;
+}
+
+.nav-avatar {
+  padding-right: 0.6rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.nav-user-avatar {
+  padding-right: 0.6rem;
+  height: 2rem;
+  width: 2rem;
+  padding-bottom: 0.5rem;
+}
+#login_custom_user {
+  padding-top: 0;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 0.625rem;
+  height: 1.4rem;
+  margin: 0;
+  font-size: 1rem;
+}
+
+#login_avatar_user {
+  padding-top: 0;
+  display: flex;
+  padding-top: 0.75rem;
+  justify-content: space-around;
+  padding-bottom: 0.625rem;
+  height: 1.4rem;
+  margin: 0;
+  font-size: 1rem;
+}
+
+#login-username {
+  text-decoration: none;
+}
+/* Dropdown Menu for under 768px: */
+.dropdown-container {
+  display: none;
+
+  @media screen and (max-width: 768px) {
+    display: block;
+    position: absolute;
+    top: 4rem;
+    width: 100%;
+    background-color: #52bff3;
+    color: #fff;
+    z-index: 1;
+    text-decoration: underline;
+    display: none;
+  }
+}
+
+.dropdown-container.active {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  text-decoration: none;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.dropdown-item {
+  padding: 0.25rem;
+}
+
+.dropdown-item a {
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: underline;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+}

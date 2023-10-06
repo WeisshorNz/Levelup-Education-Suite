@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.flex-box-container-1 {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+  background-color: #f1f1f1;
+  padding: 10px;
+  flex: 50%;
+  font-family: sans-serif;
+}
+.languageSelector {
+  border: none;
+  font-size: 25px;
+}
+.callTeacherContainer {
+  font-size: 35px;
+  background-color: #f91c85;
+  height: 235px;
+  padding-bottom: 35px;
+  border-radius: 20px;
+  border: 55px;
+  margin-top: -55px;
+  width: 18rem;
+
+  padding-right: 55px;
+  padding-left: 36px;
+  color: white;
+}
+.callTeacherContainerPic {
+  margin-left: 22px;
+  padding-top: 35px;
+  width: 75px;
+  height: 125px;
+}
+
+.flex-item-right {
+  background-color: rgba(30, 143, 255, 0.218);
+  padding: 10px;
+  flex: 50%;
+  font-family: sans-serif;
+}
+.flex-item-right2 {
+  padding: 10px;
+  flex: 50%;
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-item-right,
+  .flex-item-left {
+    flex: 100%;
+  }
+}
